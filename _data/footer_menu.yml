@@ -1,0 +1,10 @@
+- name: Blog
+  link: /blog/
+- name: CV
+  link: /cv/
+- name: Twitter
+  link: https://twitter.com/mustaphanezzari
+- name: Github
+  link: https://github.com/MawsFr/
+- name: Linkedin
+  link: https://www.linkedin.com/in/mustapha-nezzari/

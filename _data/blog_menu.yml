@@ -1,0 +1,4 @@
+- label: Articles
+  items:
+    - name: Tous
+      link: /blog/

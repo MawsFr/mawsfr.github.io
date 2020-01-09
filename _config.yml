@@ -13,23 +13,39 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Mustapha NEZZARI
+email: mnezzari.pro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Développeur passionné - Retrouvez-y des articles sur des sujets qui me passionnent,
+  des retours de mes modestes expériences, mes projets, mon CV.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: mustaphanezzari
+github_username: MawsFr
+footer_menu: footer_menu
+
+disqus:
+  shortname: mustapha_nezzari
+
+google_analytics: UA-155876534-1
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
+permalink: pretty
+
+# Search settings
+searchResultTemplate: '<div><a href="{url}"><h1>{title}</h1></a><span>{date}</span></div>'
+noResultsText: '("No result found!")'
+
+paginate: 1
+paginate_path: '/blog/page:num'
+
 plugins:
   - jekyll-feed
-
+  - jemoji
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

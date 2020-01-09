@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="content">
+
+    <p>Publié le: {{ page.date | date: "%-d %b, %Y" }} par {{ page.author }}</p>
+
+    {{ content }}
+</div>
+
+<div class="tags">
+    {% for tag in page.tags %}
+    <span class="tag is-primary">{{ tag }}</span>
+    {% endfor %}
+</div>
+
+{% if site.disqus.shortname %}
+{% include disqus.html %}
+{% endif %}

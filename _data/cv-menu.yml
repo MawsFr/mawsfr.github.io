@@ -1,0 +1,12 @@
+- label: Sommaire
+  items:
+    - name: Infos personnelles
+      link: ./#mustapha-nezzari
+    - name: Expertise
+      link: ./#expertise
+    - name: Expériences professionnelles
+      link: ./#expériences-professionnelles
+    - name: Loisirs
+      link: ./#loisirs
+    - name: Langues
+      link: ./#langues
